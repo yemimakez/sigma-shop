@@ -1,0 +1,231 @@
+body {
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+header{
+    width: 100%
+    background-color: #C6E7FF ;
+    border-bottom: 4px solid #FFDDAE
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+}
+
+nav ul li{
+    margin-right: 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #740d46;
+    font-size: larger;
+}
+
+nav ul li a:hover{
+    color: #FFC7ED;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: #EAD196;
+}
+
+#about {
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75vh;
+    padding: 40px;
+    background-color: #d3d147;
+}
+
+#about h2 {
+  margin-top: 50px;
+  width: 50%;
+  padding-left: 40px;
+}
+#about p {
+  width: 30%;
+  padding-left: 3
+#0px;
+  line-height: 1.7em;
+
+  #product {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 40px;
+  }
+
+  #product h2 {
+    text-align: center;
+    color: #344CB7;
+  }
+  
+  
+  .card-product {
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  #contact {
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    border: 1px solid #FFEB00;
+  }
+  .contact-text {
+    align-items: center;
+    padding-left: 70px;
+    width: 50%;
+  }
+  .contact-text h4 {
+    color: #344CB7;
+  }
+  .contact-text p {
+    font-size: xx-large;
+  }
+  .contact-text button {
+    padding: 8px 35px;
+    background-color: #b5bfea;
+    border: none;
+  }
+  .contact-text button:hover {
+    background-color: #FFEB00;
+    color: #344CB7;
+    box-shadow: 3px 3px 20px #344CB7;
+  }
+  .contact-image {
+    width: 50%;
+  }
+  .contact-image img {
+    width: 60%;
+  }
+
+  #about {
+    background-image: url(./asset/about\ image.gif);
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75vh;
+    padding: 40px;
+    background-color: #B4EBE6;
+}
+#about h2 {
+  margin-top: 50px;
+  width: 50%;
+  padding-left: 40px;
+}
+#about p {
+  width: 50%;
+  padding-left: 40px;
+  line-height: 1.7em;
+}
+
+#product {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 40px;
+  }
+
+  #product h2 {
+    text-align: center;
+    color: hsl(25, 100%, 62%);
+  }
+  
+  
+  .card-product {
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(28, 33, 159, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #2ba9a1;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  footer p {
+    text-align: center;
+    margin-top: 100px;
+    padding: 30px;
+    background-color:;
+    color:#f5f5f5;
+
+  }
